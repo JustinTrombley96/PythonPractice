@@ -14,6 +14,16 @@ print(5 % 4)
 #float
 print(type(2 / 4))
 print(type(1.1 + 9.9))
+#math functions
+print(round(3.9))
+print(abs(-15))
+
+#operator precedence (PEMDAS)
+print(20 - 5 * 4)
+#() 
+# **
+# * /
+# + -
 
 
 bool
