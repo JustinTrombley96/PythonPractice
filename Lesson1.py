@@ -26,12 +26,33 @@ print(20 - 5 * 4)
 # + -
 
 
-bool
-str
-list
-tuple
-set
-dict
+#bool
+#str
+print(type("Hello I am a string."))
+username = 'Hexley'
+password = 'IsTheKiller'
+descriptions = '''
+I'm a doctor.
+I have a crush on Lillian.
+My daughter means the world to me.
+I am definitely not the killer.
+'''
+print(descriptions)
+first_name = 'Max'
+last_name = 'Hexley'
+full_name = first_name + ' ' + last_name
+print(full_name)
+
+# string concatenation
+print('Hello ' + 'Hexley')
+
+#type conversion
+print(type(int(str(100))))
+
+#list
+#tuple
+#set
+#dict
 
 #Classes -> custom types
 #Supercar
@@ -61,3 +82,11 @@ print(user2_lowered_iq)
 
 #constants are all in caps
 PI = 3.14
+
+#augmented assignment operator
+cash = 5
+cash = cash + 2
+cash += 2
+cash -= 2
+cash *= 2
+print(cash)
